@@ -31,7 +31,7 @@ truncate table silver.crm_cust_info
 print'Inserting data into:silver.crm_cust_info '
 insert into silver.crm_cust_info(
 cst_id,
-csd_key,
+cst_key,
 cst_firstname ,
 cst_lastname,
 cst_marital_status,
@@ -40,7 +40,7 @@ cst_create_date)
 
 select 
 cst_id,
-csd_key,
+cst_key,
 trim(cst_firstname) as cst_firstname ,
 trim(cst_lastname) as cst_lastname,
 case when upper(trim( cst_marital_status))='S' then 'single'
