@@ -13,7 +13,7 @@ drop table silver.crm_cust_info;
 go
 create table silver.crm_cust_info(
 cst_id int  ,
-csd_key nvarchar(50),
+cst_key nvarchar(50),
 cst_firstname nvarchar(50),
 cst_lastname  nvarchar(50),
 cst_marital_status nvarchar(50),
