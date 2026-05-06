@@ -13,6 +13,10 @@ This project demonstrates a comprehensive data warehousing and analytics solutio
 
 Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
 
+ <img width="1544" height="804" alt="data_architecture" src="https://github.com/user-attachments/assets/9e9d97ac-3898-4edf-a793-ae1b6b5df038" />
+
+
+
 ### Specifications
 
 * **Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files.
